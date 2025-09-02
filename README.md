@@ -1,27 +1,33 @@
-# Mealmate - Online Food Ordering System 
+# 🍴 Mealmate – Online Food Ordering System  
 
-Mealmate is a Django-based web application that allows users to register as restaurant owners or customers. Restaurant owners can add, edit, and delete restaurants, while customers can browse menus, place orders, and make payments using Razorpay.
+**Mealmate** is a Django-based web application that enables users to register as **restaurant owners** or **customers**.  
+- **Restaurant Owners** can manage their restaurants by adding, editing, and deleting details.  
+- **Customers** can browse restaurants, view menus, place orders, and complete payments securely via Razorpay.  
 
-## Features
+---
 
-### **Authentication**
-- User registration and login (for both restaurant owners and customers)
-- Secure authentication using Django's built-in authentication system
+## 🚀 Features  
 
-### **Restaurant Management**
-- Add new restaurants
-- Edit and update restaurant details
-- Delete restaurants
+### 🔑 **Authentication**
+- User registration and login (for both restaurant owners and customers)  
+- Secure authentication using Django’s built-in authentication system  
 
-### **Menu & Orders**
-- Customers can browse menus
-- Add items to the cart
-- Place orders
+### 🏪 **Restaurant Management**  
+- Add new restaurants  
+- Edit and Update restaurant details  
+- Delete restaurants  
 
-### **Payment Integration**
-- Razorpay integrated for secure online payments
+### 📋 **Menu & Orders**  
+- Customers can browse menus  
+- Add items to cart  
+- Place orders  
 
-## Installation & Setup
+### 💳 **Payment Integration**
+- Razorpay integrated for secure online payments  
+
+---
+
+## ⚙️ Installation & Setup  
 
 ### **1. Clone the Repository**
 ```sh
@@ -100,7 +106,7 @@ mealmate/
 | GET | `/menu/` | Get menu items |
 | POST | `/order/` | Place an order |
 
-## Razorpay Payment Integration
+## 💳 Razorpay Payment Integration
 1. Sign up at [Razorpay](https://razorpay.com/)
 2. Get API keys from Razorpay Dashboard
 3. Add API keys to Django settings:
